@@ -17,8 +17,8 @@
           "identifier": "http://schema.org/identifier"
         }
     },
-    "memberOfCredential": {
-      "@id": "https://example.org/examples#memberOfCredential",
+    "memberOfCredentialInformation": {
+      "@id": "https://example.org/examples#memberOfCredentialInformation",
       "@context": {
         "@version": 1.1,
         "@protected": true,
