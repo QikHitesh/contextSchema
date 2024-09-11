@@ -23,6 +23,7 @@
         "@version": 1.1,
         "@protected": true,
         "id": "@id",
+        "type": "@type",
         "handle": "https://example.org/examples#handle",
         "schema": "https://github.com/QikHitesh/contextSchema/edit/main/memberofCredentialSchema.json",
         "organizationGroupHandle": "https://example.org/examples#organizationGroupHandle"
