@@ -24,7 +24,7 @@
         "@protected": true,
         "id": "@id",
         "handle": "https://example.org/examples#handle",
-        "schema": "https://github.com/QikHitesh/contextSchema/edit/main/memebrofcredentialSchema.json",
+        "schema": "https://github.com/QikHitesh/contextSchema/edit/main/memberofCredentialSchema.json",
         "organizationGroupHandle": "https://example.org/examples#organizationGroupHandle"
      }
    }
