@@ -13,7 +13,7 @@
         "name": "http://schema.org/name",
         "type": "@type"
       },
-      "@id": "https://blockchaingateway.qikfox.com/getContext/TestHandleCredentialContext.jsonld#handleCredential"
+      "@id": "https://blockchaingateway.qikfox.com/getContext/TestHandleCredentialContext.jsonld#handleOnqikCredential"
     },
     "handleInformation": {
       "@context": {
