@@ -2,8 +2,19 @@
   "@context": {
     "@protected": true,
     "@version": 1.1,
-    "description": "http://schema.org/description",
-    "handleOnqikCredential": {
+    "HandleOnqikInformation": {
+      "@context": {
+        "@protected": true,
+        "@version": 1.1,
+        "handle": "https://example.org/examples#handle",
+        "handleType": "https://example.org/examples#handleType",
+        "id": "@id",
+        "schema": "https://blockchaingateway.qikfox.com/getSchema/TestOnqikCredentialSchemaV3.jsonld",
+        "type": "@type"
+      },
+      "@id": "https://blockchaingateway.qikfox.com/getContext/TestOnqikCredentialContextV3.jsonld#HandleOnqikInformation"
+    },
+    "HandleOnqikCredential": {
       "@context": {
         "@protected": true,
         "@version": 1.1,
@@ -13,20 +24,9 @@
         "name": "http://schema.org/name",
         "type": "@type"
       },
-      "@id": "https://blockchaingateway.qikfox.com/getContext/TestHandleCredentialContext.jsonld#handleOnqikCredential"
+      "@id": "https://blockchaingateway.qikfox.com/getContext/TestOnqikCredentialContextV3.jsonld#HandleOnqikCredential"
     },
-    "handleInformation": {
-      "@context": {
-        "@protected": true,
-        "@version": 1.1,
-        "handle": "https://example.org/examples#handle",
-        "handleType": "https://example.org/examples#handleType",
-        "id": "@id",
-        "schema": "https://blockchaingateway.qikfox.com/getSchema/TestHandleCredentialSchema.jsonld",
-        "type": "@type"
-      },
-      "@id": "https://blockchaingateway.qikfox.com/getContext/TestHandleCredentialContext.jsonld#handleInformation"
-    },
+    "description": "http://schema.org/description",
     "identifier": "http://schema.org/identifier",
     "name": "http://schema.org/name"
   }
